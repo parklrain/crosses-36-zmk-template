@@ -107,6 +107,11 @@
             bindings = <&kp SPACE>;
             key-positions = <12 17>;
         };
+
+        caps_macro {
+            bindings = <&caps_word>;
+            key-positions = <22 27>;
+        };
     };
 
     macros {
