@@ -102,16 +102,6 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <3 6>;
         };
-
-        mf_macro {
-            bindings = <&kp SPACE>;
-            key-positions = <12 17>;
-        };
-
-        caps_macro {
-            bindings = <&caps_word>;
-            key-positions = <22 27>;
-        };
     };
 
     macros {
@@ -177,10 +167,10 @@
 
         default_layer {
             bindings = <
-&kp Q            &kp W            &kp F         &kp P              &kp B  &kp J        &kp L               &kp U         &kp Y             &lt 6 SEMI
+&lt 6 Q          &kp W            &kp F         &kp P              &kp B  &kp J        &kp L               &kp U         &kp Y             &lt 6 SEMI
 &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G  &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O
 &kp Z            &kp X            &kp C         &kp D              &kp V  &kp K        &kp H               &kp COMMA     &kp DOT           &lt 4 SLASH
-                                  &kp LEFT_GUI  &lt 3 ESCAPE       &to 1  &lt 2 ENTER  &kp BACKSPACE       &lt 5 DELETE
+                                  &kp LEFT_GUI  &lt 3 ESCAPE       &mo 1  &lt 2 ENTER  &kp BACKSPACE       &lt 5 DELETE
             >;
         };
 
