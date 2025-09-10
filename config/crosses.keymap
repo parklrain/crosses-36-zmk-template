@@ -102,6 +102,11 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <3 6>;
         };
+
+        spc_macro {
+            bindings = <&kp SPACE>;
+            key-positions = <12 17>;
+        };
     };
 
     macros {
