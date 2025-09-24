@@ -50,7 +50,7 @@
 
         p_ipe {
             bindings = <&pipe>;
-            key-positions = <23 26>;
+            key-positions = <22 27>;
         };
 
         s_vim {
@@ -60,7 +60,7 @@
 
         caps {
             bindings = <&caps_word>;
-            key-positions = <22 27>;
+            key-positions = <23 26>;
         };
 
         under {
@@ -91,11 +91,6 @@
         d_quote {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <3 6>;
-        };
-
-        spc_macro {
-            bindings = <&kp SPACE>;
-            key-positions = <32 33>;
         };
     };
 
@@ -162,10 +157,10 @@
 
         default_layer {
             bindings = <
-&lt 6 Q          &kp W            &kp F         &kp P              &kp B  &kp J        &kp L               &kp U         &kp Y             &lt 6 SEMI
-&hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G  &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O
-&kp Z            &kp X            &kp C         &kp D              &kp V  &kp K        &kp H               &kp COMMA     &kp DOT           &lt 4 SLASH
-                                  &kp LEFT_GUI  &lt 3 ESCAPE       &mo 1  &lt 2 ENTER  &kp BACKSPACE       &lt 5 DELETE
+&lt 6 Q          &kp W            &kp F         &kp P              &kp B      &kp J        &kp L               &kp U         &kp Y             &lt 6 SEMI
+&hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G      &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O
+&kp Z            &kp X            &kp C         &kp D              &kp V      &kp K        &kp H               &kp COMMA     &kp DOT           &lt 4 SLASH
+                                  &mo 1         &lt 3 ESCAPE       &kp SPACE  &lt 2 ENTER  &kp BACKSPACE       &lt 5 DELETE
             >;
         };
 
