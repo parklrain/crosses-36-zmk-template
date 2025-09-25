@@ -1,4 +1,4 @@
-if SHIELD_CROSSES_LEFT
+if SHIELD_CROSSES_RIGHT
 
 config ZMK_KEYBOARD_NAME
   default "Crosses BT"
