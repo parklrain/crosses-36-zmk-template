@@ -1,6 +1,5 @@
 #include "crosses.dtsi"
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <input/processors/xyz.dtsi>
 
 &default_transform {
   col-offset = <5>;
@@ -18,9 +17,6 @@
 
 &trackball_peripheral_listener {
   status = "okay";
-  input-processors
-    = <&zip_zxy>
-    ;
 };
 
 &spi0 {
