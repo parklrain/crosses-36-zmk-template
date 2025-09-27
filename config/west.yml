@@ -1,7 +1,8 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/Good-Great-Grand-Wonderful/zmk
+      branch: gggw/crosses
     - name: badjeff
       url-base: https://github.com/badjeff
   projects:
