@@ -3,7 +3,7 @@
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
-            psels 
+            psels
               = <NRF_PSEL(SPIM_SCK, 0, 17)>
               , <NRF_PSEL(SPIM_MOSI, 0, 6)>
               , <NRF_PSEL(SPIM_MISO, 0, 6)>
@@ -13,7 +13,7 @@
 
     spi0_sleep: spi0_sleep {
         group1 {
-            psels 
+            psels
               = <NRF_PSEL(SPIM_SCK, 0, 17)>
               , <NRF_PSEL(SPIM_MOSI, 0, 6)>
               , <NRF_PSEL(SPIM_MISO, 0, 6)>
@@ -22,7 +22,7 @@
         };
     };
 };
- 
+
 &spi0 {
   status = "okay";
   compatible = "nordic,nrf-spim";
