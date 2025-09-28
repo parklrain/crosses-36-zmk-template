@@ -65,17 +65,5 @@
                                         >;
         };
 
-        mouse {
-            display-name = "Raise";
-            status = "reserved";
-        };
-
-        extra_1 {
-            status = "reserved";
-        };
-
-        extra_2 {
-            status = "reserved";
-        };
     };
 };
